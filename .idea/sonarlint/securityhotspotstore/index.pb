@@ -49,3 +49,7 @@ m
 =api/src/main/java/med/voll/api/service/auth/package-info.java,e\4\e4da8c003741f8fb137b2a1967e6ba69a264e18e
 n
 >api/src/main/java/med/voll/api/service/token/TokenService.java,8\d\8d75c25714c0d01bdaadfbab8fa13ada69e0e98f
+p
+@api/src/main/java/med/voll/api/model/token/TokenResponseJWT.java,7\5\75f8ad53ab915bf76acc89ad762f2eb1e6048701
+q
+Aapi/src/main/java/med/voll/api/infra/security/SecurityFilter.java,0\c\0c9b273ef577548d97e78688fbac6dc14628c4f3

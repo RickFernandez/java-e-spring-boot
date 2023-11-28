@@ -1,6 +1,7 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
+import med.voll.api.model.token.TokenResponseJWT;
 import med.voll.api.model.usuario.UsuarioRequest;
 import med.voll.api.persistence.entity.Usuario;
 import med.voll.api.service.token.TokenService;
@@ -25,10 +26,11 @@ public class AutenticacaoController {
 
     @PostMapping
     public ResponseEntity efetuarLogin(@RequestBody @Valid UsuarioRequest usuario) {
-        var token = new UsernamePasswordAuthenticationToken(usuario.login(), usuario.senha());
-        var authentication = manager.authenticate(token);
+        var authenticationToken = new UsernamePasswordAuthenticationToken(usuario.login(), usuario.senha());
+        var authentication = manager.authenticate(authenticationToken);
+        var tokenJWT = tokenService.gerarToken((Usuario) authentication.getPrincipal());
 
-        return ResponseEntity.ok(tokenService.gerarToken((Usuario) authentication.getPrincipal()));
+        return ResponseEntity.ok(new TokenResponseJWT(tokenJWT));
     }
 
 }
