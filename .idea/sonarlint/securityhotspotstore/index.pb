@@ -91,3 +91,7 @@ Papi/src/main/java/med/voll/api/domain/validations/ValidadorAgendaDoPaciente.jav
 Uapi/src/main/java/med/voll/api/domain/validations/ValidadorAgendamentoDeConsulta.java,e\f\efe3a80eb2c09f9a3df205327d208315c8f67cb0
 {
 Kapi/src/main/java/med/voll/api/infra/springdoc/SpringDocConfigurations.java,9\a\9a9a722284231f9fd1632d3d895608c970c1f4b6
+
+Oapi/src/test/java/med/voll/api/persistence/repository/MedicoRepositoryTest.java,b\4\b43b56969182d424b8ab9ca5df512ff6f6c6373e
+u
+Eapi/src/test/java/med/voll/api/controller/ConsultaControllerTest.java,1\4\141c0b20e0874872f939aa6051a755c51dda82fa
