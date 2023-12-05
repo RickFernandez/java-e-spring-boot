@@ -89,3 +89,5 @@ Mapi/src/main/java/med/voll/api/domain/validations/ValidadorPacienteAtivo.java,
 Papi/src/main/java/med/voll/api/domain/validations/ValidadorAgendaDoPaciente.java,3\a\3aeb766775ef404f7d45d38c216ec316774420e4
 …
 Uapi/src/main/java/med/voll/api/domain/validations/ValidadorAgendamentoDeConsulta.java,e\f\efe3a80eb2c09f9a3df205327d208315c8f67cb0
+{
+Kapi/src/main/java/med/voll/api/infra/springdoc/SpringDocConfigurations.java,9\a\9a9a722284231f9fd1632d3d895608c970c1f4b6
