@@ -15,7 +15,14 @@ Finalizado o 1º curso da formação. Neste curso estudei sobre os seguintes tem
 Finalizado o 2º curso da formação. Neste curso estudei sobre os seguintes temas:
 - Padronizar os retornos dos controllers da API;
 - Utilizar os códigos HTTP corretamente;
-- Adicionar o módulo Spring Security;
+- Adicionar e utilizar o Spring Security;
 - Implementar um mecanismo de autenticação na API;
 - Realizar o controle de acesso na API;
-- Utilizar Json Web Token para controlar o acesso na API;
+- Utilizar Json Web Token (JWT) para controlar o acesso na API;
+
+Finalizado o 3º curso da formação. Neste curso estudei sobre os seguintes temas:
+- Implementar princípios SOLID;
+- Documentar uma API seguindo o padrão OpenAPI com Swagger;
+- Escrever testes automatizados em uma aplicação com Spring Boot;
+- Realizar o build de uma aplicação com Spring Boot;
+- Utilizar variáveis de ambiente e preparar uma aplicação para o deploy;
